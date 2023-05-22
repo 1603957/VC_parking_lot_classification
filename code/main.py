@@ -120,7 +120,7 @@ if __name__ == "__main__":
                     break
                 if auto_vehicle[i] == GT[i]:
                     accuracy_auto = accuracy_auto + 1
-            accuracy_auto = accuracy_auto/len(auto_vehicle)
+            accuracy_auto = accuracy_auto/len_auto
             auto_list.append(accuracy_auto)
             print(f"auto: {np.mean(accuracy_auto)}")
 
